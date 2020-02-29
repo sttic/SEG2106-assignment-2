@@ -1,0 +1,15 @@
+digraph {
+    rankdir=LR;
+    node [shape=doublecircle]
+
+    START [label="", fixedsize="false", width=0, height=0, shape=none];
+    START -> A
+
+    A -> B [label="a"];
+    B -> B [label="a"];
+    C -> B [label="a"];
+
+    A -> C [label="b"];
+    B -> C [label="b"];
+    C -> C [label="b"];
+}
