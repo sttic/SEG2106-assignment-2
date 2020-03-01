@@ -1,0 +1,33 @@
+digraph {
+    rankdir=LR;
+
+    node [shape=circle]
+    E, F, G, H [shape=doublecircle]
+
+    START [label="", fixedsize="false", width=0, height=0, shape=none];
+    START -> A
+
+    {
+        rank = same;
+        A;
+        E;
+    }
+
+    A -> B [label="a"];
+    B -> C [label="a"];
+    C -> E [label="a"];
+    D -> G [label="a"];
+    E -> E [label="a"];
+    F -> G [label="a"];
+    G -> C [label="a"];
+    H -> B [label="a"];
+
+    A -> A [label="b"];
+    B -> D [label="b"];
+    C -> F [label="b"];
+    D -> H [label="b"];
+    E -> F [label="b"];
+    F -> H [label="b"];
+    G -> D [label="b"];
+    H -> A [label="b"];
+}
