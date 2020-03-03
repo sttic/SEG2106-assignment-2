@@ -1,6 +1,9 @@
 # SEG2106 Assignment 2 - Lexical Analyser
 
-Content is in [assignment2.md](assignment2.md) with graph files in the [graphs](graphs/) folder.
+See [Assignment 2.docx](Assignment%202.docx) for assignment instructions.
+
+Content source is in [assignment2.md](assignment2.md) with graph files in the [graphs](graphs/) folder.
+Final PDF document is built to [assignment2.pdf](assignment2.pdf).
 
 ## Requirements
 
